@@ -1,0 +1,28 @@
+body{
+  display: grid;
+  grid-template-columns: 60% 15% 25%;
+  /* grid-column-end: span; */
+  grid-template-rows: 3fr 1fr 1fr;
+  
+}
+
+main{
+  background-color: aqua;
+  
+}
+
+footer{
+  background-color: red;
+  grid-row: 2/5;
+}
+
+nav{
+  background-color: green;
+  
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
