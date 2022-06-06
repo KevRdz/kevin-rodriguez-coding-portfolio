@@ -3,22 +3,28 @@ body{
   grid-template-columns: 60% 15% 25%;
   /* grid-column-end: span; */
   grid-template-rows: 3fr 1fr 1fr;
-  
+  /* width: 100vh; */
+  height: 100vh;
+  background-color: beige;
 }
 
 main{
   background-color: aqua;
-  
+  text-align: center;
 }
 
 footer{
   background-color: red;
   grid-row: 2/5;
+  grid-column: 1/5;
+  text-align: center;
 }
 
 nav{
   background-color: green;
-  
+  grid-column: 2/5;
+  grid-column-end: span;
+  text-align: center;
 }
 
 .flex-container{
