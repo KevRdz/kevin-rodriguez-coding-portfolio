@@ -31,10 +31,6 @@ img{
   z-index: 2;
 }
 
-#divpic{
-
-}
-
 .imgDesc{
   display: flex;
   flex-direction: column;
@@ -43,4 +39,13 @@ img{
   margin-top: -120px;
   margin-bottom: 100px;
   z-index: 0;
+}
+
+.skills-img{
+  display: center;
+  margin: 20px 20px;
+}
+
+.skills-pg{
+  margin: 100px;
 }
