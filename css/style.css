@@ -1,14 +1,12 @@
 body{
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto;
-  /* height: 100vh; */
   background-color: rgb(172, 172, 170);
-  text-align: center;
-  align-items: center;
 }
 
 main{
+  text-align: center;
+}
+
+h1{
   text-align: center;
 }
 
@@ -36,11 +34,6 @@ nav{
   margin: 50px 50px;
 }
 
-/* .dark-mode{
-  background-color: darkblue;
-  color: ghostwhite;
-} */
-
 .card-body{
   text-align: center;
   align-items: center;
@@ -48,13 +41,24 @@ nav{
 }
 
 #container{
-  /* justify-content: center; */
-  /* text-align: center; */
-  /* align-items: center; */
+  justify-content: flex;
+  text-align: center;
+  align-items: center;
   margin: 0 50px;
 }
 
 .text{
   display: inline-block;
   margin: 0 20px 0 20px;
+}
+
+#pic{
+  border-radius: 100px;
+}
+
+#code-pic{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
 }

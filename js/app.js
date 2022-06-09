@@ -1,6 +1,7 @@
 const hoverOver =document.querySelector('.secret')
-const darkBtn = document.querySelector('.dark-mode')
 const cardCtn = document.getElementById('container')
+const lightDarkBtn = document.querySelector('#dark-light-mode')
+const body = document.querySelector('body')
 
 
 
