@@ -36,6 +36,10 @@ img{
   margin: 50px 50px;
 }
 
+.project-img{
+  height: 500px;
+}
+
 /* .dark-mode{
   background-color: darkblue;
   color: ghostwhite;
