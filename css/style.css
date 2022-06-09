@@ -16,6 +16,8 @@ nav{
 
 .secret{
   position: relative;
+  height: 200px;
+  width: 200px;
   border-radius: 100px;
   z-index: 2;
 }
@@ -58,7 +60,15 @@ nav{
 
 #code-pic{
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 50px;
   border-radius: 100px;
+}
+
+#images{
+  text-align: center;
+  margin: 0 20px;
+}
+
+p{
+  font-size: larger;
 }
