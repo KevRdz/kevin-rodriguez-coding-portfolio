@@ -16,7 +16,7 @@ nav{
   text-align: center;
 }
 
-img{
+.secret{
   position: relative;
   border-radius: 100px;
   z-index: 2;
@@ -36,10 +36,6 @@ img{
   margin: 50px 50px;
 }
 
-.project-img{
-  height: 500px;
-}
-
 /* .dark-mode{
   background-color: darkblue;
   color: ghostwhite;
@@ -49,4 +45,16 @@ img{
   text-align: center;
   align-items: center;
   justify-items: center;
+}
+
+#container{
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* align-items: center; */
+  margin: 0 50px;
+}
+
+.text{
+  display: inline-block;
+  margin: 0 20px 0 20px;
 }
