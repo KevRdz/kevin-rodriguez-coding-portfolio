@@ -4,6 +4,8 @@ body{
   grid-template-rows: auto auto auto;
   /* height: 100vh; */
   background-color: rgb(172, 172, 170);
+  text-align: center;
+  align-items: center;
 }
 
 main{
@@ -30,15 +32,18 @@ img{
   z-index: 0;
 }
 
-.skills-img{
-  display: center;
-  margin: 20px 20px;
-}
-
-.skills-pg{
-  margin: 100px;
-}
-
 .project-title{
-  margin: 100px 50px;
+  margin: 50px 50px;
+}
+
+/* .dark-mode{
+  background-color: darkblue;
+  color: ghostwhite;
+} */
+
+.card-body{
+  display: ;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
 }
