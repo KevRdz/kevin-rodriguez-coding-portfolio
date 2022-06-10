@@ -2,7 +2,7 @@
 
 https://kevins-coding-portfolio.netlify.app
 
-![image](./assets/Images/view.png)
+![image](https://i.imgur.com/ByJk2lx.png)
 
 Used card and nav bar from bootstrap
 
