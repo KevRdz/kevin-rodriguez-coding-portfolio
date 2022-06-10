@@ -1,5 +1,6 @@
 body{
-  background-color: rgb(172, 172, 170);
+  background-image: linear-gradient(to bottom right, red, yellow);
+  height: 1px;
 }
 
 main{
@@ -58,7 +59,7 @@ nav{
   border-radius: 100px;
 }
 
-#code-pic{
+.code-pic{
   display: inline-block;
   margin: 0 50px;
   border-radius: 100px;
@@ -67,8 +68,40 @@ nav{
 #images{
   text-align: center;
   margin: 0 20px;
+  
 }
 
 p{
   font-size: larger;
+}
+
+
+.container-fluid{
+  background-color: black;
+  color: white;
+}
+
+.navbar{
+  background-color: black;
+  padding: 0px;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.navbar-toggler{
+  background-color: white;
+}
+
+.nav-link{
+  color: white;
+}
+
+.dropdown-menu{
+  background-color: black;
+}
+
+.dropdown-item{
+  color: white;
 }

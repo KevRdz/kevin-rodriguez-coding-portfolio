@@ -1,7 +1,5 @@
 const hoverOver =document.querySelector('.secret')
-const cardCtn = document.getElementById('container')
-const lightDarkBtn = document.querySelector('#dark-light-mode')
-const body = document.querySelector('body')
+const vanish = document.querySelector('.code-pic')
 
 
 
@@ -10,5 +8,13 @@ hoverOver.addEventListener('mouseover', function(evt){
 })
   
 hoverOver.addEventListener('mouseout', function(evt){
+  evt.target.style.opacity = ""
+})
+
+vanish.addEventListener('mouseover', function(evt){
+  evt.target.style.opacity = "0"
+})
+
+vanish.addEventListener('mouseout', function(evt){
   evt.target.style.opacity = ""
 })
