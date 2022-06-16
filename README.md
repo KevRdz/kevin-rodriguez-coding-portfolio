@@ -1,10 +1,17 @@
 # kevin-rodriguez-coding-portfolio
 
-https://kevins-coding-portfolio.netlify.app
+Title: Kevin Rodriguez Coding Portfolio
 
 ![image](https://i.imgur.com/ByJk2lx.png)
 
-Used card and nav bar from bootstrap
-used images from google images
+
+
+https://kevins-coding-portfolio.netlify.app
+
+This is my personal coding portfolio which contains three pages. Page one is about me, and page two contains my resume. Lastly page three will contain all of the projects I've worked on. It also has links to my personal Github and linkedin pages.
+
 
 Some future enhacments are implementing animations to buttons, images and texts. Adding a dark and light buttons. Also implementing som sound effects. 
+
+Used card and nav bar from bootstrap
+used images from google images
