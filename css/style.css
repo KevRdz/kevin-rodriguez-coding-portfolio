@@ -126,4 +126,22 @@ p{
 .about{
   font-size: 25px;
   margin: 0 200px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 768px){
+  .about{
+    text-align: center;
+    font-size: x-large;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .card{
+    margin-left:110px;
+  }
+  .about{
+    margin: 0 50px;
+    text-align: center;
+  }
 }
