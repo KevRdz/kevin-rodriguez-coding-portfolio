@@ -11,7 +11,7 @@ let projectData = [
     deployment: "https://fish-tracker.herokuapp.com/",
     image: '/assets/images/Fish-tracker.png',
     github: 'https://github.com/UncleHagi/fish-tracker',
-    description: "A site created to help fishermen track fishes they've caught"
+    description: "A site created to help users track fishes."
   }
 ]
 

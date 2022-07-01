@@ -5,7 +5,7 @@ const cardCtn = document.getElementById('container')
 
 let projectInfo = projectData.map(project =>
     `
-      <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 18rem;">
         <img src="${project.image}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${project.title}</h5>
